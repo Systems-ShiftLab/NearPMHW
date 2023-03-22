@@ -2,7 +2,7 @@
 
 Near data accelerator for crash consistency overhead forcusing on data intensive tasks
 
-##Pre-requirements
+## Pre-requirements
 
 SW:
 
@@ -14,7 +14,7 @@ Virtex UltraScale+ VCU118 Evaluation Platform
 AMD Ryzen 7 3700X 
 
 
-##Building
+## Building
 
 Clone the repository
 
