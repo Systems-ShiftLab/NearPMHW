@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_multi_thread_split_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="glbl" />
+            <top_module name="lib_pkg" />
+            <top_module name="test_multi_thread_split" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="43300396730fs"></ZoomStartTime>
+      <ZoomEndTime time="48939920654fs"></ZoomEndTime>
+      <Cursor1Time time="48000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="192"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/test_multi_thread_split/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider311" type="divider">
+      <obj_property name="label">DIMM Sched 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/PMunit_status_reg">
+      <obj_property name="ElementShortName">PMunit_status_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PMunit_status_reg[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/slall_mem_channel">
+      <obj_property name="ElementShortName">slall_mem_channel</obj_property>
+      <obj_property name="ObjectShortName">slall_mem_channel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/reciveing_cmd">
+      <obj_property name="ElementShortName">reciveing_cmd</obj_property>
+      <obj_property name="ObjectShortName">reciveing_cmd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/awvalid">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/awaddr">
+      <obj_property name="ElementShortName">awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_0/inst/has_write_dependence">
+      <obj_property name="ElementShortName">has_write_dependence</obj_property>
+      <obj_property name="ObjectShortName">has_write_dependence</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider310" type="divider">
+      <obj_property name="label">DIMM Sched 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/dimm_scheduler_1/inst/PMunit_status_reg">
+      <obj_property name="ElementShortName">PMunit_status_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PMunit_status_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_1/inst/slall_mem_channel">
+      <obj_property name="ElementShortName">slall_mem_channel</obj_property>
+      <obj_property name="ObjectShortName">slall_mem_channel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/dimm_scheduler_1/inst/reciveing_cmd">
+      <obj_property name="ElementShortName">reciveing_cmd</obj_property>
+      <obj_property name="ObjectShortName">reciveing_cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider57" type="divider">
+      <obj_property name="label">Commans split</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/multi_thread_command_0/inst/buffer0_select_valid">
+      <obj_property name="ElementShortName">buffer0_select_valid</obj_property>
+      <obj_property name="ObjectShortName">buffer0_select_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/multi_thread_command_0/inst/buffer1_select_valid">
+      <obj_property name="ElementShortName">buffer1_select_valid</obj_property>
+      <obj_property name="ObjectShortName">buffer1_select_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/multi_thread_command_0/inst/scheduler_state">
+      <obj_property name="ElementShortName">scheduler_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">scheduler_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/multi_thread_command_0/inst/pmem_obj_offset_valid">
+      <obj_property name="ElementShortName">pmem_obj_offset_valid</obj_property>
+      <obj_property name="ObjectShortName">pmem_obj_offset_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/multi_thread_command_0/inst/oid_valid">
+      <obj_property name="ElementShortName">oid_valid</obj_property>
+      <obj_property name="ObjectShortName">oid_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/axi_engine_0/M_AXI_WDATA">
+      <obj_property name="ElementShortName">M_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_multi_thread_split/dut/axi_engine_0/M_AXI_WVALID">
+      <obj_property name="ElementShortName">M_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_multi_thread_split/dut/axi_engine_0/inst/mst_exec_state">
+      <obj_property name="ElementShortName">mst_exec_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state[4:0]</obj_property>
+   </wvobject>
+</wave_config>
